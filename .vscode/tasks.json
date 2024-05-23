@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+        },
+        {
+            "label": "valgrind",
+            "type": "shell",
+            "command": "valgrind",
+            "args": ["./bin/warehouse ./configFileExample.txt"],
+            "group": {
+            "kind": "test",
+            "isDefault": true
+            }
+        }
+    ]
+}
