@@ -1,4 +1,3 @@
-readme
 This project is an implementation of a Food Warehouse Management System as part of the Systems Programming – Assignment #1 for Fall 2024. The system simulates the operation of a warehouse that processes and delivers food orders using volunteers. The program follows object-oriented design principles in C++, incorporating memory management techniques and efficient data structures.
 
 Program Features
